@@ -1,14 +1,14 @@
 const Data = [
   {
     id: 1,
-    img: "/public/imges/product_01.1.jpg",
+    img: "/imges/product_01.1.jpg",
     title: "Chicken Burger",
     price: "24$",
     category: "Burger",
   },
   {
     id: 2,
-    img: "/public/imges/Vegetirian.jpg",
+    img: "/imges/Vegetirian.jpg",
     title: "Vegetarian Pizza",
     price: "125$",
     category: "Pizza",
