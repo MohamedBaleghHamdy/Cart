@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ody {
+  background: #fcfcfc;
+  font-family: "Istok Web", sans-serif;
+}
+p {
+  color: #888;
+}
+span {
+  color: rgb(223, 32, 32);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold !important;
+  font-family: "RocknRoll One", sans-serif !important;
+}
+h5 {
+  color: red;
+}
+.button {
+  border-radius: 10px;
+  padding: 6px;
+  background-color: rgb(253, 32, 32);
+  color: white;
+  border-color: rgb(223, 32, 32);
+}
+.buttonn {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 7px 20px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  border-color: rgb(223, 32, 32);
+}
+.d-con img {
+  
+    animation: updown 3s  infinite;
+  }
+  @keyframes updown {
+      0% {
+          transform: translatex(20px);
+      }
+      50% {
+          transform: translatex(-20px);
+      }
+      100% {
+          transform: translatex(-20px);
+      }
+  }
+
+.buttonn:focus {
+  color: red;
+  background-color: #fcfcfc;
+}
+.card1 {
+  border: solid 1px #888;
+}
+
+.button:focus {
+  background-color: red;
+  color: white;
+}
+@media (max-width: 767px) {
+  .ff,
+  .Media {
+    text-align: center;
+  }
+  .d-con {
+    display: flex;
+    justify-content: center;
+  }
+}
+.cardd {
+  border: 1px solid rgb(253, 228, 228);
+  background-color: rgb(253, 228, 228);
+}
+@media (max-width: 768px) {
+  .dd {
+    justify-content: center;
+  }
+}
+@media (min-width: 900px) {
+  .card1 {
+    width: 23% !important;
+    margin-left: 10px;
+  }
+}
