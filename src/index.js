@@ -15,7 +15,7 @@ const Data = [
   },
   {
     id: 3,
-    img: "/public/imges/double.jpg",
+    img: "/imges/double.jpg",
     title: "Double Chease Margerita",
     price: "120$",
     category: "Pizza",
